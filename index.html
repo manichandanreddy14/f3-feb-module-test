@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="nav">
+        <input type="text" id="input-text" placeholder="Search By Name or Symbol" name="input">
+        <button id="Search">Search</button>
+        <button id="mkt_cap" onclick="sortByMarketCap()">Sort By Mkt Cap</button>
+        <button id="per" onclick="sortByPercentageChange()">Sort by percentage</button>
+        <table id="table" border="1" style="margin-top: 10px;">
+            <thead>
+                <tr>
+                    <th>image</th>
+                    <th>symbol</th>
+                    <th>Id</th>
+                    <th>Current Price
+                    </th>
+                    <th>Total Volume</th>
+                    <th>Market cap</th>
+                    <th>Price Change</th>
+                </tr>
+                <tbody id="tablebody">
+                    
+                </tbody>
+            </thead>
+        </table>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

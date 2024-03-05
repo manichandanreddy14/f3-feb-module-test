@@ -1,0 +1,22 @@
+*{
+    /* background-color: black; */
+}
+#nav{
+   margin-top: 100px;
+   margin-inline-start: 150px;
+}
+#input-text{
+    width: 350px;
+    font-size: 8px;
+    padding: 8px;
+    border: 1px #8E8E8E solid;
+}
+#mkt_cap,#per,#Search{
+    background-color: black;
+    color: white;font-size: small;
+    font-size: 8px;
+    padding: 8px;
+    border: 1px #8E8E8E solid;
+}#table{
+    
+}
